@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cura Natural</title>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="stylesheet" href="style.css">
+    <script denfer src="index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <img id="logo" src="./favicon_io/favicon-32x32.png" >
+                <ul id="link">
+                    <li> <a href="#i">Introdução</a> </li>
+                    <li> <a href="#m">Como consumir</a></li>
+                    <li> <a href="#f">Filtro</a></li>
+                </ul>
+           
+        </div>
+    </header>
+     <main>
+        <div id="i">
+            <h1>Introdução</h1>
+            <p>O uso de produtos naturais para tratar doenças é uma tradição que atravessa séculos, o que se
+                 deve à eficiência das ervas quando o assunto é curar doenças, principalmente as inflamatórias, 
+                 como dor de garganta,lesões na pele, incômodos musculares e, até mesmo, problemas na bexiga
+                  e rins.</p>
+        </div>
+        <div id="m">
+            <h1>Como consumir</h1>
+            <p>A erva pode ser consumida como chá, mas existem opções em capsulas tambem, dependendo do que pretende 
+                tratar tem a opção de banho de acento dependendo do tipo de erva ela não deve ser ingerida,
+                por isso é importante pesquisar antes o modo de preparo e consumo.
+            </p>
+        </div>
+        </main> 
+        <nav id="f" class="sidebar">
+            <h3>Filtro</h3>
+            <select id="filter-select">
+                <option id="all" value="all">Todos</option>
+                <option id="respiratory" value="respiratory">Respiratório</option>
+                <option id="inflammatory" value="inflammatory">Anti Inflamatório</option>
+                <option id="gynecological" value="gynecological">Ginecológico</option>
+              </select>
+           
+            <div id="filter-respiratory">
+                    <div id="caixa-1-r">
+                        <div id="img1r">
+                        <img src="./img/eucal.jpg" ></div>
+
+                        <div class="texto">
+                            <h3>Eucalipto</h3>
+                            <p>Amenizar problemas respiratórios como bronquite, rinite e sinusite, o eucalipto combate também os principais sintomas de gripes
+                                 e resfriados, graças ao poder do eucaliptol, o princípio ativo que é responsável também por sua ação expectorante, fluidificante 
+                                 e antisséptica.<br>
+                                É muito utilizado para a inalação: para cada litro de água fervendo, coloque de 10 a 15 folhas bem lavadas do eucalipto.</p>
+                        </div>
+                        <button id ='btn'>Saber mais!</button>
+                    </div>
+
+                <div id="caixa-2-r">
+                    <div id="img2r">
+                    <img src="./img/hortela.jpg" ></div>
+               
+                    <div class="texto">
+                        <h3>Hortelã</h3>
+                        <p>Suas substâncias ativas como as saponinas, alfa-hederina e hederagenina, compostos que atuam nos brônquios inflamados,
+                             são usadas para o alívio da tosse e expulsão das secreções. <br>
+                            Seu extrato é altamente recomendado para a diminuição dos sintomas no caso de bronquite e tosse aguda.</p>
+                    </div> 
+                    <button id ='btn'>Saber mais!</button>
+                </div>
+
+                <div id="caixa-3-r">
+                    <div id="img3r">
+                    <img src="./img/tomi.jpg" ></div>
+
+                    <div class="texto">
+                        <h3>Tomilho</h3>
+                        <p> Antimicrobiano natural para curar dores de garganta é o tomilho.<br> Use uma colher de tomilho seco para 200 ml de
+                             água para fazer o gargarejo.<br>
+                            Atenção: É contraindicado para pessoas com problemas gástricos e intestinais, e também para grávidas e lactantes.</p>
+                    </div>
+                    <button id ='btn'>Saber mais!</button>
+                </div>
+            </div>
+            <div id="filter-inflammatory">
+                <p id="caixa-1-i"></p>
+                <p id="caixa-2-i"></p>
+                <p id="caixa-3-i"></p>
+                
+            </div>
+            <div id="filter-gynecological">
+                <p id="caixa-1-g"></p>
+                <p id="caixa-2-g"></p>
+                <p id="caixa-3-g"></p>
+
+            </div> </nav>
+  <footer>
+<h4>&copy;Daniele Santos-2023 </h4>
+    <p><a href="https://github.com/danielesantos19"><img src="./img/github.png" id="git" class="git" ></a></p>
+  </footer> 
+</body>
+</html>

@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    color: white;
+    padding: 2%;
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(circle at 50%  10%, #207527,
+    #032909 70%) ;
+    background-repeat: no-repeat;
+    
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 2em;
+}
+#link li{
+    list-style: none;
+}
+#link a{
+    text-decoration: none;
+    color: white;
+}
+#link a:hover{
+    text-decoration:3px solid red underline ;
+}
+#i, #m{
+    margin: 8%;
+   text-align: justify;
+}
+h1{
+    text-align: center;
+    margin-bottom: 5px;
+}
+#filter-respiratory{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.texto h3{
+    text-align: center;
+    margin-top: 2%;
+}
+.texto p{
+    font-size: 12px;
+    margin: 5%;
+}
+#btn{
+    font-weight: bolder;
+    background: none;
+    font-size: 20px;
+    color: rgb(117, 197, 221);
+    border-color: white;
+    margin: 50px;
+    
+}
+#btn:hover{
+    box-shadow: rgba(218, 206, 206, 0.425) 0px 5px 15px;
+}
+#caixa-1-r{
+    width: 250px;
+    height: 500px;
+    background-color: rgb(5, 37, 43);
+    border-radius: 10px;
+    box-shadow:rgba(218, 206, 206, 0.24) 0px 5px 15px;
+}
+
+#img1r{
+      display: flex;
+    justify-content: center;
+}
+#caixa-1-r img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 5px;
+   
+}
+
+#caixa-2-r{
+    width: 250px;
+    height: 500px;
+    background-color: rgb(5, 37, 43);
+    border-radius: 10px;
+    box-shadow:rgba(218, 206, 206, 0.24) 0px 5px 15px;
+}
+#img2r{
+    display: flex;
+  justify-content: center;
+}
+#caixa-2-r img{
+    width: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+#caixa-3-r{
+    width: 250px;
+    height: 500px;
+    background-color: rgb(5, 37, 43);
+    border-radius: 10px;
+    box-shadow:rgba(218, 206, 206, 0.24) 0px 5px 15px;
+}
+#img3r{
+    display: flex;
+  justify-content: center;
+}
+#caixa-3-r img{
+    width: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#git{
+    height: 20px;
+}
